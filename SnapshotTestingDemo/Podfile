@@ -1,0 +1,9 @@
+
+target 'SnapshotTestingDemo' do
+  use_frameworks!
+
+  target 'SnapshotTestingDemoTests' do
+    inherit! :search_paths
+    pod 'iOSSnapshotTestCase'
+  end
+end
